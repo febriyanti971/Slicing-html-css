@@ -15,8 +15,20 @@ header {
     display: flex;
     align-items: center;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: -30px;
+    font-size: 15px;
+    margin-bottom: 40px;
 }
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 10px;
+    margin-left: -20px;
+}
+
 
 ul {
     list-style-type: none;
@@ -24,12 +36,12 @@ ul {
     padding: 0;
     overflow: hidden;
     margin-left: 390px;
-    margin-top: -58px;
+    margin-top: -125px;
 }
 
 li {
     float: left;
-    padding: 30px;
+    padding: 25px;
     margin-right: 10px;
 }
 
@@ -59,20 +71,20 @@ li {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
-    gap: 5px;  
+    gap: 5px;
 }
 
 .hero {
     padding: 10px;
     font-size: 20px;
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left: 120px;
     color: #fff;
     font-family: sans-serif;
 }
 
 .hero-card {
-    margin-top: 90px;
+    margin-top: 100px;
     background-color: #C4DEFD;
     color: #000;
     padding: 10px;
@@ -81,6 +93,13 @@ li {
     width: 600px;
     height: 380px;
     margin-right: 100px;
+}
+
+.hero1 {
+    background-image: url("bg-hero.svg");
+    background-position: 0;
+    background-repeat: no-repeat;
+
 }
 
 .button-try2 {
@@ -97,6 +116,114 @@ li {
     margin-top: 150px;
     background-color: #fff;
     width: 100%;
+}
+
+.content-project {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("bg-2.svg");
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-position: left top 228px;
+}
+
+.inline {
+    display: inline-block;
+    background-image: url("inline.svg");
+    background-repeat: no-repeat;
+    width: 500px;
+    /* Samakan dengan ukuran background-size kamu */
+    height: 300px;
+    /* Atur tinggi kotak supaya gambar yang digeser ke bawah tidak terpotong */
+    margin-bottom: -600px;
+    /* 2. Atur ukuran gambar di dalam kotak */
+    background-size: contain;
+    /* Menggunakan 'contain' lebih aman agar gambar tidak gepeng atau terpotong */
+
+    /* 3. Geser gambarnya ke bawah */
+    background-position: center 15px;
+    /* Tengah, lalu turun 100px */
+}
+
+.your-work-inline {
+    background-image: url("inline-2.svg");
+    background-position: left 920px top 40px;
+    background-repeat: no-repeat;
+    background-size: 230px;
+}
+
+.what-our-plan {
+    background-image: url("inline-says.svg");
+    background-position: left 880px top 70px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.sponsors-inline {
+    background-image: url("inline-sponsors.svg");
+    background-position: left 650px top 40px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.inline2 {
+    display: inline-block;
+    background-image: url("inline.svg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    margin-bottom: -600px;
+    background-size: 20%;
+    background-size: contain;
+    background-position: center 25px;
+}
+
+.inline3 {
+    display: inline-block;
+    background-image: url("inline.svg");
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin-bottom: -600px;
+    background-size: contain;
+    background-position: center 20px;
+}
+
+.plan-inline {
+    background-image: url("inline.svg");
+    background-position: left 740px top 25px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.inline5 {
+    display: inline-block;
+    background-image: url("inline.svg");
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin-bottom: -600px;
+    background-size: contain;
+    background-position: center 20px;
+}
+
+.inline6 {
+    display: inline-block;
+    background-image: url("inline.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: -200px;
+    background-position: 50px bottom;
+}
+
+.inline7 {
+    display: inline-block;
+    background-image: url("inline.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: -200px;
+    margin-left: 20px;
+    background-position: center bottom;
 }
 
 .button-get {
@@ -128,7 +255,8 @@ li {
     margin-bottom: 0px;
 }
 
-.Work-together-card, .img {
+.Work-together-card,
+.img {
     margin-top: 20px;
     width: 50%;
     height: 50%;
@@ -161,16 +289,17 @@ li {
     padding: 20px;
 }
 
-.plan-card-1{
+.plan-card-1 {
     margin-top: 50px;
-    border: 1px solid #FFE492;;
+    border: 1px solid #FFE492;
+    ;
     margin-left: 130px;
     width: 390px;
     height: 600px;
     border-radius: 10px;
 }
 
-.plan-card-2{
+.plan-card-2 {
     border: 1px solid #043873;
     background-color: #043873;
     color: #fff;
@@ -180,9 +309,10 @@ li {
     border-radius: 10px;
 }
 
-.plan-card-3{
+.plan-card-3 {
     margin-top: 50px;
-    border: 1px solid #FFE492;;
+    border: 1px solid #FFE492;
+    ;
     margin-right: 80px;
     width: 390px;
     height: 600px;
@@ -190,7 +320,7 @@ li {
 }
 
 .isi {
-    padding: 10px;
+    padding: 20px;
     font-size: 18px;
     margin-top: 10px;
     color: #000;
@@ -210,11 +340,19 @@ li {
 }
 
 .isi2 {
-    padding: 10px;
+    padding: 20px;
     font-size: 18px;
     margin-top: 20px;
     color: #fff;
     font-family: sans-serif;
+}
+
+.content-your-work {
+    background-image: url("bg-2.svg");
+    background-repeat: no-repeat;
+    padding: 0;
+    z-index: -1;
+    background-position: left;
 }
 
 .work-together {
@@ -236,7 +374,8 @@ li {
     margin-bottom: 50px;
 }
 
-.work-together-card, .img {
+.work-together-card,
+.img {
     margin-top: 10px;
     width: 100%;
     height: 100%;
@@ -248,7 +387,7 @@ li {
 .container-sponsors {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .sponsors-card {
@@ -277,7 +416,8 @@ li {
     margin-bottom: 50px;
 }
 
-.work-with-card, .img {
+.work-with-card,
+.img {
     margin-top: 10px;
     width: 90%;
     height: 90%;
@@ -292,7 +432,7 @@ li {
     padding: 20px;
 }
 
-.what-our-card-1{
+.what-our-card-1 {
     margin-top: 50px;
     box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
     margin-left: 100px;
@@ -301,24 +441,52 @@ li {
     border-radius: 10px;
 }
 
-.line{
+.line {
     border-bottom: 1px solid #043873;
     width: 90%;
     margin-left: 20px;
 }
 
-.profile{
-    display: grid;
-    grid-template-columns: auto auto ;
-    padding: 20px;
-    gap: 5px;  
+.line-our-2 {
+    border-bottom: 1px solid white;
+    width: 90%;
+    margin-left: 20px;
 }
 
-.profile img{
+.what-our-dot {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    gap: 5px;
+}
+
+.profile img {
     margin-top: 25px;
 }
 
-.what-our-card-2{
+.what-our-card-2 {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 100px;
@@ -328,7 +496,7 @@ li {
     background-color: #4F9CF9;
 }
 
-.what-our-card-3{
+.what-our-card-3 {
     margin-top: 50px;
     margin-left: -50px;
     margin-right: 300px;
@@ -338,7 +506,7 @@ li {
     background-color: #4F9CF9;
 }
 
-.button-try-taskey{
+.button-try-taskey {
     margin-left: 45%;
     padding: 15px 24px;
     color: white;
@@ -350,8 +518,9 @@ li {
 }
 
 .container-contant-sales {
-  margin-top: 100px;
-  margin-left: 180px;
+    margin-top: 100px;
+    margin-left: 180px;
+    padding-bottom: 80px;
 }
 
 .contant-sales-card {
@@ -359,10 +528,10 @@ li {
     gap: -20;
 }
 
-.container-footer{
+.container-footer {
     display: grid;
     grid-template-columns: 35% 20% 20% 20% 30%;
-    gap: 30px; 
+    gap: 30px;
     color: white;
     max-width: 1200px;
     margin: 0;
@@ -372,20 +541,20 @@ li {
     font-family: sans-serif;
 }
 
-.footer-card{
+.footer-card {
     padding: 0px;
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.footer-card-2{
+.footer-card-2 {
     padding: 0px;
     margin-left: -50px;
     margin-right: 100px;
 }
 
-.footer-card-2 ul{
-    list-style-type:none;
+.footer-card-2 ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     margin-left: 0px;
@@ -400,7 +569,7 @@ li {
     margin-right: 10px;
 }
 
-.footer-card-3{
+.footer-card-3 {
     padding: 0px;
     margin-left: -110px;
     margin-right: 100px;
@@ -424,8 +593,48 @@ li {
     margin-left: 50px;
 }
 
+.last-footer-1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 390px;
+    margin-top: -80px;
+}
+
+.last-footer-1 li {
+    float: left;
+    padding: 30px;
+    margin-right: 10px;
+}
+
+.last-footer-1 {
+    padding: 10px;
+    margin-left: -350px;
+    color: white;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
 .last-footer-2 {
     padding: 10px;
     margin-left: -350px;
     color: white;
+    margin-top: 10px;
+}
+
+.last-footer-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 1400px;
+    margin-top: -110px;
+    padding-bottom: 50px;
+}
+
+.last-footer-2 li {
+    float: flex;
+    padding: 30px;
+    margin-right: 20px;
 }
