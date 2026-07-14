@@ -2,101 +2,107 @@ body {
     background-color: #043873;
     padding: 0;
     margin: 0;
+    width: 100%;
+    max-width: 1920px;
 }
 
 header {
-    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1480px;
+    margin: auto;
     color: white;
-    font-family: Arial, sans-serif;
-    margin-top: 30px;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    padding: 10px;
-    margin-top: -30px;
     font-size: 15px;
-    margin-bottom: 40px;
-    margin-left: -37px;
+    font-family: sans-serif;
 }
 
-.logo2 {
+nav {
     display: flex;
     align-items: center;
-    padding: 10px;
-    margin-top: -10px;
-    font-size: 10px;
-    margin-left: -20px;
+    gap: 32px;
 }
 
-
 ul {
-    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    margin-left: 490px;
-    margin-top: -125px;
 }
 
 li {
-    float: left;
-    padding: 25px;
-    margin-right: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 .button {
-    margin-top: -60px;
-    margin-right: 50px;
+    display: flex;
+    gap: 16px;
 }
 
 .button-login {
-    margin-left: 1118px;
-    padding: 15px 24px;
-    background-color: #FFE492;
+    padding: 20px 48px;
+    background: #FFE492;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .button-try {
-    margin-left: 28px;
-    padding: 15px 45px;
+    padding: 20px 60px;
     color: white;
     background-color: #4F9CF9;
     border: none;
     border-radius: 4px;
 }
 
+.content-1 {
+    overflow: hidden;
+}
+
 .container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
     display: grid;
-    grid-template-columns: auto auto;
-    padding: 20px;
-    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 0 -10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .hero {
-    padding: 10px;
+    display: flex;
     font-size: 20px;
-    margin-top: 120px;
-    margin-left: 68px;
+    flex-direction: column;
+    align-items: flex-start;
     color: #fff;
     font-family: sans-serif;
+    margin: 0;
 }
 
 .hero-card {
-    margin-top: 110px;
     background-color: #C4DEFD;
-    color: #000;
     padding: 10px;
     font-size: 30px;
     text-align: center;
-    width: 824px;
-    height: 549px;
-    margin-right: 88px;
+    width: 715px;
+    height: 500px;
 }
 
 .hero1 {
+    width: 100%;
     background-image: url("bg-hero.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -114,9 +120,10 @@ li {
 }
 
 .content2 {
-    margin-top: 210px;
     background-color: #fff;
     width: 100%;
+    margin-top: 100px;
+    overflow: hidden;
 }
 
 .content-project {
@@ -127,15 +134,13 @@ li {
 }
 
 .Project-card {
-    margin-top: 140px;
     background-color: #C4DEFD;
     color: #000;
     padding: 10px;
     font-size: 30px;
     text-align: center;
-    width: 708px;
-    height: 380px;
-    margin-right: 86px;
+     width: 715px;
+    height: 500px;
 }
 
 .line-project {
@@ -167,15 +172,13 @@ li {
 }
 
 .use-as-card {
-    margin-top: 140px;
     background-color: #C4DEFD;
     color: #000;
     padding: 10px;
     font-size: 30px;
     text-align: center;
-    width: 685px;
-    height: 479px;
-    margin-right: 86px;
+    width: 715px;
+    height: 500px;
 }
 
 .line-use-as-extension {
@@ -224,69 +227,70 @@ li {
 }
 
 .Work-together {
-    padding: 10px;
+    display: flex;
     font-size: 20px;
-    margin-top: 200px;
-    margin-left: -65px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
     color: #fff;
     font-family: sans-serif;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 .Work-together-card {
-    margin-top: 100px;
     padding: 10px;
-    width: 600px;
-    height: 380px;
-    margin-right: 120px;
-    margin-bottom: 0px;
+    max-width: 715px;
+    width: 100%;
+    height: 500px;
 }
 
 .Work-together-card,
 .img {
-    margin-top: 20px;
-    width: 75%;
+    width: 100%;
     height: 75%;
-    margin-left: 70px;
 }
 
 .customise-card {
-    margin-top: 90px;
     background-color: #C4DEFD;
     color: #000;
     padding: 10px;
+    font-size: 30px;
     text-align: center;
-    width: 714px;
-    height: 532px;
-    margin-left: 80px;
+   width: 715px;
+    height: 500px;
 }
 
 .customise {
-    padding: 10px;
+    display: flex;
     font-size: 20px;
-    margin-top: 100px;
-    margin-left: 70px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
     color: #fff;
     font-family: sans-serif;
+    margin: 0;
 }
 
 .line-customise {
     background-image: url("line-customise.svg");
-    background-position: left -1px top 90px;
+    background-position: left 0px top 150px;
     background-repeat: no-repeat;
-    background-size: 700px;
+    background-size: 600px;
 }
 
 .container-plan {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .plan-card-1 {
-    margin-top: 50px;
     border: 1px solid #FFE492;
-    margin-left: 80px;
     width: 472px;
     height: 634px;
     border-radius: 10px;
@@ -296,16 +300,13 @@ li {
     border: 1px solid #043873;
     background-color: #043873;
     color: #fff;
-    margin-right: 0;
     width: 472px;
     height: 761px;
     border-radius: 10px;
 }
 
 .plan-card-3 {
-    margin-top: 50px;
     border: 1px solid #FFE492;
-    margin-right: 64px;
     width: 472px;
     height: 634px;
     border-radius: 10px;
@@ -355,91 +356,84 @@ li {
 }
 
 .your-data {
-    padding: 10px;
-    font-size: 20px;
-    margin-top: 100px;
-    margin-left: 73px;
-    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-family: sans-serif;
-    padding-right: 100px;
+    margin-left: -40px;
 }
 
 .your-data-card {
-    margin-top: 90px;
-    padding: 10px;
-    width: 600px;
-    height: 380px;
-    margin-right: 0px;
-    margin-bottom: 50px;
+    width: 100%;
+    max-width: 715px;
+    height: 500px;
 }
 
 .your-data-card,
 .img {
-    width: 100%;
+    max-width: 715px;
+    width: 90%;
     height: 100%;
-    margin-right: -10px;
-    margin-left: -20px;
-    margin-top: -80px;
 }
 
 .line-your-data {
     background-image: url("line-your-data.svg");
-    background-position: left 200px top 40px;
+    background-position: left 200px top 100px;
     background-repeat: no-repeat;
     background-size: 380px;
 }
 
 .container-sponsors {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-}
-
-.sponsors-card {
-    margin-top: 50px;
-    margin-left: 85px;
-    grid-column: span 1;
-    margin-bottom: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .work-with {
-    padding: 10px;
-    margin-top: 10px;
-    margin-left: 125px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
     color: #fff;
     font-family: sans-serif;
-    padding-right: 80px;
+    margin: 0;
 }
 
 .work-with-card {
-    margin-top: 90px;
-    padding: 10px;
-    width: 600px;
-    height: 380px;
-    margin-right: 0px;
-    margin-bottom: 50px;
+    max-width: 715px;
+    width: 100%;
+    height: 500px;
 }
 
 .work-with-card,
 .img {
-    margin-top: 10px;
-    width: 90%;
+    width: 100%;
     height: 90%;
-    margin-right: 0px;
-    margin-left: 70px;
-    margin-top: 50px;
 }
 
 .container-what-our {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .what-our-card-1 {
-    margin-top: 50px;
     box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
-    margin-left: 80px;
     width: 471px;
     height: 498px;
     border-radius: 10px;
@@ -447,14 +441,12 @@ li {
 
 .line {
     border-bottom: 1px solid #043873;
-    width: 90%;
-    margin-left: 20px;
+    width: 100%;
 }
 
 .line-our-2 {
     border-bottom: 1px solid white;
-    width: 90%;
-    margin-left: 20px;
+    width: 100%;
 }
 
 .what-our-dot {
@@ -491,9 +483,6 @@ li {
 }
 
 .what-our-card-2 {
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 100px;
     width: 471px;
     height: 498px;
     border-radius: 10px;
@@ -501,9 +490,6 @@ li {
 }
 
 .what-our-card-3 {
-    margin-top: 50px;
-    margin-left: -73px;
-    margin-right: 400px;
     width: 471px;
     height: 498px;
     border-radius: 10px;
@@ -511,7 +497,6 @@ li {
 }
 
 .button-try-taskey {
-    margin-left: 45%;
     padding: 15px 24px;
     color: white;
     background-color: #4F9CF9;
@@ -521,66 +506,66 @@ li {
     margin-bottom: 30px;
 }
 
-.container-contant-sales {
-    margin-top: 100px;
-    margin-left: 10%;
-    padding-bottom: 80px;
+.try-whitepace-today {
+    align-items: center;
 }
 
-.contant-sales-card {
-    margin-left: 140px;
-    gap: -20;
+.try-whitepace-today {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container-contant-sales ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .container-footer {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 35% 20% 20% 20% 30%;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
     color: white;
-    max-width: 1200px;
-    margin: 0;
-    padding: 0;
-    margin-top: 80px;
-    margin-bottom: 50px;
     font-family: sans-serif;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .footer-card {
     padding: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .footer-card-2 {
     padding: 0px;
-    margin-left: 10px;
-    margin-right: 100px;
 }
 
 .footer-card-2 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 0px;
-    margin-top: 5px;
+    display: block;
     color: white;
 }
 
 .footer-card-2 li {
-    float: none;
     margin-top: 20px;
     padding: 0px;
-    margin-right: 10px;
 }
 
-.footer-card-6 {
+.footer-card-3 {
     padding: 0px;
-    margin-left: 10px;
-    margin-right: 90px;
 }
 
 .button-start-today {
-    margin-left: 10px;
     padding: 15px 50px;
     color: white;
     background-color: #4F9CF9;
@@ -588,14 +573,29 @@ li {
     border-radius: 4px;
 }
 
-.last-footer {
-    padding: 30px;
-}
-
 .line-2 {
     border-bottom: 1px solid #2E4E73;
-    margin-left: 70px;
-    width: 1468px;
+    width: 1440px;
+    max-width: 1890px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.last-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1480px;
+    margin: auto;
+    gap: 10px;
 }
 
 .last-footer-1 ul {
@@ -603,315 +603,180 @@ li {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 450px;
-    margin-top: -80px;
 }
 
 .last-footer-1 li {
     float: left;
     padding: 30px;
-    margin-right: 10px;
 }
 
 .last-footer-1 {
-    padding: 10px;
-    margin-left: -350px;
     color: white;
-    margin-top: 25px;
     font-family: sans-serif;
+    display: flex;
+    align-items: center;
 }
 
 .last-footer-2 {
-    padding: 10px;
-    margin-left: -350px;
+    display: flex;
+    align-items: center;
     color: white;
-    margin-top: 10px;
+    display: flex;
 }
 
 .last-footer-2 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    margin-left: 1550px;
-    margin-top: -110px;
-    padding-bottom: 50px;
 }
 
 .last-footer-2 li {
     float: flex;
     padding: 30px;
-    margin-right: 20px;
 }
 
-@media (max-width: 1480px) {
+@media screen and (max-width: 1440px) {
 
-    .container {
-        padding: 0 20px;
-    }
-
-    .hero {
-        font-size: 40px;
+    body {
+        width: 100%;
     }
 
     .logo {
-        margin-left: -95px
+        padding: 20px 32px;
     }
 
-    ul {
-        margin-left: 490px;
+    nav {
+        gap: 70px;
     }
 
-    .button {
-        margin-right: 50px;
+    .button-try{
+        margin-right: -10px;
     }
 
-    .button-login {
-        margin-left: 1080px;
+    .content-1 {
+        overflow: visible;
     }
 
-    .button-try {
-        margin-left: 10px;
-        margin-right: -200px;
+    .container {
+        padding: 30px 28px;
     }
 
-    .hero1,
-    .img {
-        width: 106.5%;
+    .hero1 {
+        width: 1420px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    .hero {
-        margin-left: 18px;
-    }
-
-    .hero-card {
-        margin-right: 30px;
+    .container {
+        max-width: 1420px;
+        width: 100%;
+        margin: 0 auto;
+        gap: 10px;
+        padding: 30px 30px;
     }
 
     .content2 {
-        width: 106.5%;
+        width: 103%;
     }
 
-    .Project-card {
-        margin-right: 35px;
+    .container-plan {
+        width: 100%;
+        max-width: 1420px;
+        gap: 30px;
     }
 
-    .Work-together-card,
-    .img {
-        margin-left: 20px;
-    }
-
-    .use-as-card {
-        margin-right: -60px;
-    }
-
-    .customise-card {
-        margin-left: 28px;
-    }
 
     .plan-card-1 {
-        margin-left: 30px;
+        width: 450px;
+        height: 600px;
     }
 
     .plan-card-2 {
-        margin-left: 5px;
+        width: 450px;
+        height: 650px;
     }
 
     .plan-card-3 {
-        margin-right: 20px;
-    }
-
-    .your-work-line {
-        background-position: left 1000px top 50px;
+        width: 450px;
+        height: 600px;
     }
 
     .your-data {
-        margin-left: 19px;
+        margin-left: -18px;
     }
 
     .your-data-card,
     .img {
-        margin-right: -54px;
+        width: 90%;
     }
 
-    .sponsors-card {
-        margin-left: 33px;
+    .container-sponsors {
+        width: 100%;
+        max-width: 1420px;
+        margin: 0 auto;
+        gap: 180px;
     }
 
-    .sponsors-line {
-        background-position: left 700px top 45px;
-    }
-
-    .work-with-card {
-        margin-right: -20px;
-    }
-
-    .work-with-card,
-    .img {
-        margin-left: 20px;
-    }
-
-    .what-our-plan {
-        background-position: left 970px top 80px;
+    .container-what-our {
+        width: 100%;
+        max-width: 1420px;
+        margin: 0 auto;
+        gap: 30px;
     }
 
     .what-our-card-1 {
-        margin-left: 30px;
-    }
-
-    .try-whitepace-today {
-        margin-left: 50px;
-    }
-
-    .container-contant-sales {
-        margin-left: 3.5%;
-    }
-
-    .container-footer {
-        margin-left: -50px;
-        grid-template-columns: 35% 25% 25% 15% 30%;
-    }
-
-    .footer-card-2 {
-        margin-left: -20px;
-    }
-
-    .footer-card-3 {
-        margin-left: -20px;
-    }
-
-    .line-2 {
-        margin-left: 0;
-    }
-
-    .last-footer-2 {
-        margin-left: -10px;
-    }
-
-    .last-footer-2 ul {
-        margin-left: 100px;
-    }
-
-    .last-footer-2 li {
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 1152px) {
-
-    .container {
-    display: grid;
-    grid-template-columns: auto auto;
-    }
-
-    .content2 {
-    margin-top: 210px;
-    background-color: #fff;
-    width: 1152px;
-    }
-
-    .hero-card {
-        width: 685px;
-        height: 456px;
-    }
-
-    ul {
-        margin-left: 150px;
-    }
-
-    .button {
-        margin-right: 50px;
-    }
-
-    .button-login {
-        margin-left: 730px;
-    }
-
-    .button-try {
-        margin-left: 10px;
-        margin-right: -200px;
-    }
-
-    .Project-card {
-        width: 719px;
-        height: 448px;
-    }
-
-    .use-as-card {
-        width: 685px;
-        height: 479px;
-    }
-
-    .customise-card {
-        width: 670px;
-        height: 499px;
-    }
-
-    .plan-card-1 {
-        width: 370px;
-        height: 654px;
-    }
-
-    .plan-card-2 {
-        width: 370px;
-        height: 761px;
-    }
-
-    .plan-card-3 {
-        width: 370px;
-        height: 654px;
-    }
-
-    .sponsors-card {
-        margin-left: 75px;
-    }
-
-    .what-our-card-1 {
-        width: 370px;
-        height: 498px;
-    }
-
-    .what-our-card-2 {
-        width: 370px;
-        height: 498px;
+        width: 453px;
+        height: 450px;
     }
 
     .what-our-card-3 {
-        width: 370px;
-        height: 498px;
+        width: 450px;
+        height: 450px;
     }
 
-    .container-contant-sales {
-        margin-left: 3%;
+    .what-our-card-2 {
+        width: 450px;
+        height: 450px;
     }
 
     .container-footer {
-        margin-left: -50px;
-        grid-template-columns: 30% 25% 25% 15% 30%;
-    }
-
-    .footer-card-2 {
-        margin-left: -70px;
-    }
-
-    .footer-card-3 {
-        margin-left: -100px;
+        max-width: 1420px;
+        width: 100%;
+        gap: 30px;
     }
 
     .line-2 {
-        margin-left: 0;
-        width: 1150px;
+        width: 1400px;
+        margin-left: 40px;
     }
 
-    .last-footer-2 {
-        margin-left: -10px;
+    .logo2 {
+        padding: 13px;
     }
 
-    .last-footer-2 ul {
-        margin-left: 100px;
+    .footer-card p {
+        padding: 0 23px;
+    }
+}
+
+@media screen and (max-width: 1152px ){
+
+    
+    body {
+        width: 100%;
     }
 
-    .last-footer-2 li {
-        margin-right: 20px;
+    .logo{
+        padding: 20px 40px;
     }
+
+    .container{
+        padding: 30px 38px;
+    }
+
+    .content2 {
+        width: 130%;
+    }
+    
 }
