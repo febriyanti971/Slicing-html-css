@@ -18,6 +18,7 @@ header {
     margin-top: -30px;
     font-size: 15px;
     margin-bottom: 40px;
+    margin-left: -37px;
 }
 
 .logo2 {
@@ -35,7 +36,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 390px;
+    margin-left: 490px;
     margin-top: -125px;
 }
 
@@ -47,11 +48,11 @@ li {
 
 .button {
     margin-top: -60px;
-    margin-right: 110px;
+    margin-right: 50px;
 }
 
 .button-login {
-    margin-left: 990px;
+    margin-left: 1118px;
     padding: 15px 24px;
     background-color: #FFE492;
     border: none;
@@ -59,8 +60,8 @@ li {
 }
 
 .button-try {
-    margin-left: 10px;
-    padding: 15px 24px;
+    margin-left: 28px;
+    padding: 15px 45px;
     color: white;
     background-color: #4F9CF9;
     border: none;
@@ -69,7 +70,7 @@ li {
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     padding: 20px;
     gap: 5px;
 }
@@ -77,29 +78,29 @@ li {
 .hero {
     padding: 10px;
     font-size: 20px;
-    margin-top: 110px;
-    margin-left: 120px;
+    margin-top: 120px;
+    margin-left: 68px;
     color: #fff;
     font-family: sans-serif;
 }
 
 .hero-card {
-    margin-top: 100px;
+    margin-top: 110px;
     background-color: #C4DEFD;
     color: #000;
     padding: 10px;
     font-size: 30px;
     text-align: center;
-    width: 600px;
-    height: 380px;
-    margin-right: 100px;
+    width: 824px;
+    height: 549px;
+    margin-right: 88px;
 }
 
 .hero1 {
     background-image: url("bg-hero.svg");
-    background-position: 0;
+    background-position: center;
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
 .button-try2 {
@@ -113,7 +114,7 @@ li {
 }
 
 .content2 {
-    margin-top: 150px;
+    margin-top: 210px;
     background-color: #fff;
     width: 100%;
 }
@@ -125,84 +126,70 @@ li {
     background-position: left top 228px;
 }
 
-.inline {
-    display: inline-block;
-    background-image: url("inline.svg");
-    background-repeat: no-repeat;
-    width: 500px;
-    /* Samakan dengan ukuran background-size kamu */
-    height: 300px;
-    /* Atur tinggi kotak supaya gambar yang digeser ke bawah tidak terpotong */
-    margin-bottom: -600px;
-    /* 2. Atur ukuran gambar di dalam kotak */
-    background-size: contain;
-    /* Menggunakan 'contain' lebih aman agar gambar tidak gepeng atau terpotong */
-
-    /* 3. Geser gambarnya ke bawah */
-    background-position: center 15px;
-    /* Tengah, lalu turun 100px */
+.Project-card {
+    margin-top: 140px;
+    background-color: #C4DEFD;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 708px;
+    height: 380px;
+    margin-right: 86px;
 }
 
-.your-work-inline {
-    background-image: url("inline-2.svg");
-    background-position: left 920px top 40px;
+.line-project {
+    background-image: url("inline-1.svg");
+    background-position: left 10px top 125px;
     background-repeat: no-repeat;
-    background-size: 230px;
+    background-size: 500px;
 }
 
-.what-our-plan {
-    background-image: url("inline-says.svg");
-    background-position: left 880px top 70px;
-    background-repeat: no-repeat;
-    background-size: 200px;
-}
-
-.sponsors-inline {
-    background-image: url("inline-sponsors.svg");
-    background-position: left 650px top 40px;
-    background-repeat: no-repeat;
-    background-size: 300px;
-}
-
-.inline2 {
-    display: inline-block;
-    background-image: url("inline.svg");
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 200px;
-    margin-bottom: -600px;
-    background-size: 20%;
-    background-size: contain;
-    background-position: center 25px;
-}
-
-.inline3 {
-    display: inline-block;
-    background-image: url("inline.svg");
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
-    margin-bottom: -600px;
-    background-size: contain;
-    background-position: center 20px;
-}
-
-.plan-inline {
-    background-image: url("inline.svg");
-    background-position: left 740px top 25px;
+.line-work-together {
+    background-image: url("line-work-together.svg");
+    background-position: left 180px top 50px;
     background-repeat: no-repeat;
     background-size: 350px;
 }
 
-.inline5 {
-    display: inline-block;
-    background-image: url("inline.svg");
+.what-our-plan {
+    background-image: url("inline-says.svg");
+    background-position: left 1030px top 70px;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
-    margin-bottom: -600px;
-    background-size: contain;
-    background-position: center 20px;
+    background-size: 250px;
+}
+
+.sponsors-line {
+    background-image: url("inline-sponsors.svg");
+    background-position: left 765px top 45px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.use-as-card {
+    margin-top: 140px;
+    background-color: #C4DEFD;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 685px;
+    height: 479px;
+    margin-right: 86px;
+}
+
+.line-use-as-extension {
+    background-image: url("line-use-as-extension.svg");
+    background-position: left 160px top 60px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.line-plan {
+    background-image: url("inline.svg");
+    background-position: left 740px top 25px;
+    background-repeat: no-repeat;
+    background-size: 350px;
 }
 
 .inline6 {
@@ -239,8 +226,8 @@ li {
 .Work-together {
     padding: 10px;
     font-size: 20px;
-    margin-top: 110px;
-    margin-left: 94px;
+    margin-top: 200px;
+    margin-left: -65px;
     color: #fff;
     font-family: sans-serif;
     margin-bottom: 20px;
@@ -251,16 +238,16 @@ li {
     padding: 10px;
     width: 600px;
     height: 380px;
-    margin-right: 100px;
+    margin-right: 120px;
     margin-bottom: 0px;
 }
 
 .Work-together-card,
 .img {
     margin-top: 20px;
-    width: 50%;
-    height: 50%;
-    margin-left: 120px;
+    width: 75%;
+    height: 75%;
+    margin-left: 70px;
 }
 
 .customise-card {
@@ -269,9 +256,9 @@ li {
     color: #000;
     padding: 10px;
     text-align: center;
-    width: 600px;
-    height: 380px;
-    margin-left: 120px;
+    width: 714px;
+    height: 532px;
+    margin-left: 80px;
 }
 
 .customise {
@@ -283,6 +270,13 @@ li {
     font-family: sans-serif;
 }
 
+.line-customise {
+    background-image: url("line-customise.svg");
+    background-position: left -1px top 90px;
+    background-repeat: no-repeat;
+    background-size: 700px;
+}
+
 .container-plan {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -292,10 +286,9 @@ li {
 .plan-card-1 {
     margin-top: 50px;
     border: 1px solid #FFE492;
-    ;
-    margin-left: 130px;
-    width: 390px;
-    height: 600px;
+    margin-left: 80px;
+    width: 472px;
+    height: 634px;
     border-radius: 10px;
 }
 
@@ -304,18 +297,17 @@ li {
     background-color: #043873;
     color: #fff;
     margin-right: 0;
-    width: 390px;
-    height: 700px;
+    width: 472px;
+    height: 761px;
     border-radius: 10px;
 }
 
 .plan-card-3 {
     margin-top: 50px;
     border: 1px solid #FFE492;
-    ;
-    margin-right: 80px;
-    width: 390px;
-    height: 600px;
+    margin-right: 64px;
+    width: 472px;
+    height: 634px;
     border-radius: 10px;
 }
 
@@ -355,17 +347,24 @@ li {
     background-position: left;
 }
 
-.work-together {
+.your-work-line {
+    background-image: url("inline-2.svg");
+    background-position: left 1090px top 50px;
+    background-repeat: no-repeat;
+    background-size: 330px;
+}
+
+.your-data {
     padding: 10px;
     font-size: 20px;
     margin-top: 100px;
-    margin-left: 125px;
+    margin-left: 73px;
     color: #fff;
     font-family: sans-serif;
     padding-right: 100px;
 }
 
-.work-together-card {
+.your-data-card {
     margin-top: 90px;
     padding: 10px;
     width: 600px;
@@ -374,14 +373,20 @@ li {
     margin-bottom: 50px;
 }
 
-.work-together-card,
+.your-data-card,
 .img {
-    margin-top: 10px;
     width: 100%;
     height: 100%;
-    margin-right: 0px;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-right: -10px;
+    margin-left: -20px;
+    margin-top: -80px;
+}
+
+.line-your-data {
+    background-image: url("line-your-data.svg");
+    background-position: left 200px top 40px;
+    background-repeat: no-repeat;
+    background-size: 380px;
 }
 
 .container-sponsors {
@@ -391,20 +396,19 @@ li {
 }
 
 .sponsors-card {
-    margin-top: 20px;
-    margin-left: 130px;
+    margin-top: 50px;
+    margin-left: 85px;
     grid-column: span 1;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .work-with {
     padding: 10px;
-    font-size: 20px;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 125px;
     color: #fff;
     font-family: sans-serif;
-    padding-right: 100px;
+    padding-right: 80px;
 }
 
 .work-with-card {
@@ -422,7 +426,7 @@ li {
     width: 90%;
     height: 90%;
     margin-right: 0px;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-top: 50px;
 }
 
@@ -435,9 +439,9 @@ li {
 .what-our-card-1 {
     margin-top: 50px;
     box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
-    margin-left: 100px;
-    width: 390px;
-    height: 400px;
+    margin-left: 80px;
+    width: 471px;
+    height: 498px;
     border-radius: 10px;
 }
 
@@ -488,20 +492,20 @@ li {
 
 .what-our-card-2 {
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-right: 100px;
-    width: 390px;
-    height: 400px;
+    width: 471px;
+    height: 498px;
     border-radius: 10px;
     background-color: #4F9CF9;
 }
 
 .what-our-card-3 {
     margin-top: 50px;
-    margin-left: -50px;
-    margin-right: 300px;
-    width: 390px;
-    height: 400px;
+    margin-left: -73px;
+    margin-right: 400px;
+    width: 471px;
+    height: 498px;
     border-radius: 10px;
     background-color: #4F9CF9;
 }
@@ -519,7 +523,7 @@ li {
 
 .container-contant-sales {
     margin-top: 100px;
-    margin-left: 180px;
+    margin-left: 10%;
     padding-bottom: 80px;
 }
 
@@ -531,7 +535,7 @@ li {
 .container-footer {
     display: grid;
     grid-template-columns: 35% 20% 20% 20% 30%;
-    gap: 30px;
+    gap: 10px;
     color: white;
     max-width: 1200px;
     margin: 0;
@@ -549,7 +553,7 @@ li {
 
 .footer-card-2 {
     padding: 0px;
-    margin-left: -50px;
+    margin-left: 10px;
     margin-right: 100px;
 }
 
@@ -569,10 +573,10 @@ li {
     margin-right: 10px;
 }
 
-.footer-card-3 {
+.footer-card-6 {
     padding: 0px;
-    margin-left: -110px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-right: 90px;
 }
 
 .button-start-today {
@@ -590,7 +594,8 @@ li {
 
 .line-2 {
     border-bottom: 1px solid #2E4E73;
-    margin-left: 50px;
+    margin-left: 70px;
+    width: 1468px;
 }
 
 .last-footer-1 ul {
@@ -598,7 +603,7 @@ li {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 390px;
+    margin-left: 450px;
     margin-top: -80px;
 }
 
@@ -628,7 +633,7 @@ li {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    margin-left: 1400px;
+    margin-left: 1550px;
     margin-top: -110px;
     padding-bottom: 50px;
 }
@@ -637,4 +642,276 @@ li {
     float: flex;
     padding: 30px;
     margin-right: 20px;
+}
+
+@media (max-width: 1480px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .hero {
+        font-size: 40px;
+    }
+
+    .logo {
+        margin-left: -95px
+    }
+
+    ul {
+        margin-left: 490px;
+    }
+
+    .button {
+        margin-right: 50px;
+    }
+
+    .button-login {
+        margin-left: 1080px;
+    }
+
+    .button-try {
+        margin-left: 10px;
+        margin-right: -200px;
+    }
+
+    .hero1,
+    .img {
+        width: 106.5%;
+    }
+
+    .hero {
+        margin-left: 18px;
+    }
+
+    .hero-card {
+        margin-right: 30px;
+    }
+
+    .content2 {
+        width: 106.5%;
+    }
+
+    .Project-card {
+        margin-right: 35px;
+    }
+
+    .Work-together-card,
+    .img {
+        margin-left: 20px;
+    }
+
+    .use-as-card {
+        margin-right: -60px;
+    }
+
+    .customise-card {
+        margin-left: 28px;
+    }
+
+    .plan-card-1 {
+        margin-left: 30px;
+    }
+
+    .plan-card-2 {
+        margin-left: 5px;
+    }
+
+    .plan-card-3 {
+        margin-right: 20px;
+    }
+
+    .your-work-line {
+        background-position: left 1000px top 50px;
+    }
+
+    .your-data {
+        margin-left: 19px;
+    }
+
+    .your-data-card,
+    .img {
+        margin-right: -54px;
+    }
+
+    .sponsors-card {
+        margin-left: 33px;
+    }
+
+    .sponsors-line {
+        background-position: left 700px top 45px;
+    }
+
+    .work-with-card {
+        margin-right: -20px;
+    }
+
+    .work-with-card,
+    .img {
+        margin-left: 20px;
+    }
+
+    .what-our-plan {
+        background-position: left 970px top 80px;
+    }
+
+    .what-our-card-1 {
+        margin-left: 30px;
+    }
+
+    .try-whitepace-today {
+        margin-left: 50px;
+    }
+
+    .container-contant-sales {
+        margin-left: 3.5%;
+    }
+
+    .container-footer {
+        margin-left: -50px;
+        grid-template-columns: 35% 25% 25% 15% 30%;
+    }
+
+    .footer-card-2 {
+        margin-left: -20px;
+    }
+
+    .footer-card-3 {
+        margin-left: -20px;
+    }
+
+    .line-2 {
+        margin-left: 0;
+    }
+
+    .last-footer-2 {
+        margin-left: -10px;
+    }
+
+    .last-footer-2 ul {
+        margin-left: 100px;
+    }
+
+    .last-footer-2 li {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1152px) {
+
+    .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+
+    .content2 {
+    margin-top: 210px;
+    background-color: #fff;
+    width: 1152px;
+    }
+
+    .hero-card {
+        width: 685px;
+        height: 456px;
+    }
+
+    ul {
+        margin-left: 150px;
+    }
+
+    .button {
+        margin-right: 50px;
+    }
+
+    .button-login {
+        margin-left: 730px;
+    }
+
+    .button-try {
+        margin-left: 10px;
+        margin-right: -200px;
+    }
+
+    .Project-card {
+        width: 719px;
+        height: 448px;
+    }
+
+    .use-as-card {
+        width: 685px;
+        height: 479px;
+    }
+
+    .customise-card {
+        width: 670px;
+        height: 499px;
+    }
+
+    .plan-card-1 {
+        width: 370px;
+        height: 654px;
+    }
+
+    .plan-card-2 {
+        width: 370px;
+        height: 761px;
+    }
+
+    .plan-card-3 {
+        width: 370px;
+        height: 654px;
+    }
+
+    .sponsors-card {
+        margin-left: 75px;
+    }
+
+    .what-our-card-1 {
+        width: 370px;
+        height: 498px;
+    }
+
+    .what-our-card-2 {
+        width: 370px;
+        height: 498px;
+    }
+
+    .what-our-card-3 {
+        width: 370px;
+        height: 498px;
+    }
+
+    .container-contant-sales {
+        margin-left: 3%;
+    }
+
+    .container-footer {
+        margin-left: -50px;
+        grid-template-columns: 30% 25% 25% 15% 30%;
+    }
+
+    .footer-card-2 {
+        margin-left: -70px;
+    }
+
+    .footer-card-3 {
+        margin-left: -100px;
+    }
+
+    .line-2 {
+        margin-left: 0;
+        width: 1150px;
+    }
+
+    .last-footer-2 {
+        margin-left: -10px;
+    }
+
+    .last-footer-2 ul {
+        margin-left: 100px;
+    }
+
+    .last-footer-2 li {
+        margin-right: 20px;
+    }
 }
