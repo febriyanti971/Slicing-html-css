@@ -14,6 +14,7 @@ header {
     max-width: 1480px;
     margin: auto;
     color: white;
+    padding: 20px 0;
 }
 
 .logo {
@@ -21,6 +22,11 @@ header {
     align-items: center;
     font-size: 15px;
     font-family: sans-serif;
+}
+
+.logo h1 {
+    font-size: 30px;
+    padding: 0 10px;
 }
 
 nav {
@@ -64,6 +70,11 @@ li {
     border-radius: 4px;
 }
 
+nav .menu-icon {
+    display: none;
+    font-size: 38px;
+}
+
 .content-1 {
     overflow: hidden;
 }
@@ -77,14 +88,16 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    padding: 0 -10px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
+h1 {
+    font-size: 72px;
+}
+
 .hero {
     display: flex;
-    font-size: 20px;
     flex-direction: column;
     align-items: flex-start;
     color: #fff;
@@ -94,6 +107,7 @@ li {
 
 .hero-card {
     background-color: #C4DEFD;
+    color: #000;
     padding: 10px;
     font-size: 30px;
     text-align: center;
@@ -135,11 +149,10 @@ li {
 
 .Project-card {
     background-color: #C4DEFD;
-    color: #000;
     padding: 10px;
     font-size: 30px;
     text-align: center;
-     width: 715px;
+    width: 715px;
     height: 500px;
 }
 
@@ -195,27 +208,6 @@ li {
     background-size: 350px;
 }
 
-.inline6 {
-    display: inline-block;
-    background-image: url("inline.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 350px;
-    height: -200px;
-    background-position: 50px bottom;
-}
-
-.inline7 {
-    display: inline-block;
-    background-image: url("inline.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 10%;
-    height: -200px;
-    margin-left: 20px;
-    background-position: center bottom;
-}
-
 .button-get {
     margin-left: -2px;
     padding: 15px 40px;
@@ -223,7 +215,7 @@ li {
     background-color: #4F9CF9;
     border: none;
     border-radius: 4px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .Work-together {
@@ -256,7 +248,7 @@ li {
     padding: 10px;
     font-size: 30px;
     text-align: center;
-   width: 715px;
+    width: 715px;
     height: 500px;
 }
 
@@ -287,6 +279,11 @@ li {
     gap: 28px;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.line-plan h1 {
+    text-align: center;
+    font-size: 72px;
 }
 
 .plan-card-1 {
@@ -320,6 +317,14 @@ li {
     font-family: sans-serif;
 }
 
+.isi h2 {
+    font-size: 24px;
+}
+
+.isi h1 {
+    font-size: 36px;
+}
+
 .button-get2 {
     margin-left: -2px;
     padding: 15px 40px;
@@ -340,10 +345,23 @@ li {
     font-family: sans-serif;
 }
 
+.isi2 h2 {
+    font-size: 24px;
+}
+
+.isi2 h1 {
+    font-size: 36px;
+}
+
 .content-your-work {
+    text-align: center;
+
+}
+
+.bg-your-work {
     background-image: url("bg-2.svg");
     background-repeat: no-repeat;
-    padding: 0;
+    padding: 100px;
     z-index: -1;
     background-position: left;
 }
@@ -360,7 +378,7 @@ li {
     flex-direction: column;
     align-items: flex-start;
     font-family: sans-serif;
-    margin-left: -40px;
+    margin-left: -73px;
 }
 
 .your-data-card {
@@ -372,7 +390,7 @@ li {
 .your-data-card,
 .img {
     max-width: 715px;
-    width: 90%;
+    width: 99%;
     height: 100%;
 }
 
@@ -586,6 +604,7 @@ li {
     align-items: center;
     padding: 10px;
     margin-top: -10px;
+    margin-left: -20px;
 }
 
 .last-footer {
@@ -638,7 +657,7 @@ li {
 @media screen and (max-width: 1440px) {
 
     body {
-        width: 100%;
+        width: 1440px;
     }
 
     .logo {
@@ -649,35 +668,36 @@ li {
         gap: 70px;
     }
 
-    .button-try{
+    .button-try {
         margin-right: -10px;
     }
 
     .content-1 {
-        overflow: visible;
+        overflow: hidden;
     }
 
-    .container {
-        padding: 30px 28px;
-    }
-
-    .hero1 {
-        width: 1420px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .content2 {
+        overflow: hidden;
     }
 
     .container {
         max-width: 1420px;
         width: 100%;
         margin: 0 auto;
-        gap: 10px;
-        padding: 30px 30px;
+        gap: 30px;
+        padding: 50px 30px;
+    }
+
+
+
+    .hero1 {
+        width: 100%;
+        max-width: 1440px;
     }
 
     .content2 {
         width: 103%;
+        padding-bottom: 100px;
     }
 
     .container-plan {
@@ -703,12 +723,12 @@ li {
     }
 
     .your-data {
-        margin-left: -18px;
+        margin-left: -28px;
     }
 
     .your-data-card,
     .img {
-        width: 90%;
+        width: 99%;
     }
 
     .container-sponsors {
@@ -752,31 +772,246 @@ li {
     }
 
     .logo2 {
-        padding: 13px;
+        padding: 13px 32px;
     }
 
     .footer-card p {
         padding: 0 23px;
     }
+
+    .last-footer-1 ul {
+        padding: 0 10px;
+    }
 }
 
-@media screen and (max-width: 1152px ){
+@media screen and (max-width: 1152px) {
 
-    
+    .content-1 {
+        overflow: auto;
+    }
+
+
     body {
         width: 100%;
     }
 
-    .logo{
-        padding: 20px 40px;
+    header {
+        width: 100%;
+        max-width: 1088px;
     }
 
-    .container{
-        padding: 30px 38px;
+    .logo,
+    img {
+        width: 15%;
+        padding-right: 10px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .logo {
+        padding: 20px 0px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .menu-icon {
+        display: block;
+        padding-right: 5px;
+    }
+
+    .button-login {
+        padding: 15px 24px;
+    }
+
+    .button-try {
+        padding: 15px 30px;
+    }
+
+    .container {
+        max-width: 1088px;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .hero h1 {
+        font-size: 64px;
+    }
+
+    .hero-card,
+    .Project-card,
+    .use-as-card,
+    .customise-card {
+        background-color: #C4DEFD;
+        padding: 20px 0;
+        text-align: center;
+        width: 520px;
+        height: 380px;
+    }
+
+    .Work-together-card {
+        padding: 10px;
+        max-width: 650px;
+        width: 100%;
+        height: 500px;
+    }
+
+    .Work-together-card,
+    img {
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .customise {
+        gap: 0px;
+    }
+
+    .hero1 {
+        width: 1152px;
+        background-image: url("bg-hero.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .content2 {
-        width: 130%;
+        width: 100%;
+        max-width: 1152px;
     }
-    
+
+    .container-plan {
+        width: 100%;
+        max-width: 1088px;
+        gap: 30px;
+    }
+
+    .plan-card-1,
+    .plan-card-3 {
+        width: 341px;
+        height: 650px;
+    }
+
+    .plan-card-2 {
+        width: 341px;
+        height: 700px;
+    }
+
+    .content-your-work {
+        max-width: 900px;
+        text-align: left;
+        display: flex;
+        margin-left: -70px;
+    }
+
+    .bg-your-work {
+        background-position: left 1090px top 50px;
+        background-repeat: no-repeat;
+        background-size: 330px;
+    }
+
+    .your-data {
+        margin-left: 3px;
+    }
+
+    .your-data-card,
+    .img {
+        width: 78%;
+    }
+
+    .container-sponsors {
+        width: 100%;
+        max-width: 1088px;
+        padding: 10px 10px;
+        gap: 65px;
+    }
+
+    .container-what-our {
+        width: 100%;
+        max-width: 1088px;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .what-our-card-1,
+    .what-our-card-2,
+    .what-our-card-3 {
+        width: 342px;
+        height: 450px;
+    }
+
+    .container-footer {
+        max-width: 1088px;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .line-2 {
+        width: 1000px;
+        margin-left: 40px;
+    }
+
+    .logo2 {
+        padding: 20px 60px;
+        margin-left: -50px;
+        margin-top: -20px;
+    }
+
+    .logo2 h2 {
+        margin-bottom: 5px;
+    }
+
+    .footer-card {
+        margin-left: -20px;
+    }
+
+    .line-2 {
+        width: 1080px;
+        max-width: 1100px;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .footer-card p {
+        margin-top: 5px;
+    }
+
+    .last-footer {
+        max-width: 1088px;
+        gap: 0px;
+    }
+
+    .last-footer-1 li {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .last-footer-2 li {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .last-footer-2 li,
+    .img {
+        width: 10%;
+        height: 10%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .container {
+    max-width: 728px;
+    width: 100%;
+    display:list-item;
+    grid-template-rows:auto;
+}
+    .hero {
+        display: flex;
+    flex-direction: column;
+}
 }
