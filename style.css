@@ -114,6 +114,7 @@ p {
 }
 
 .hero-card {
+    background-image: url(gambar-1.jpg);
     background-color: #C4DEFD;
     color: #000;
     padding: 10px;
@@ -160,6 +161,7 @@ p {
 }
 
 .Project-card {
+    background-image: url(gambar-2.png);
     background-color: #C4DEFD;
     padding: 10px;
     font-size: 30px;
@@ -198,6 +200,7 @@ p {
 }
 
 .use-as-card {
+    background-image: url(gambar-3.avif);
     background-color: #C4DEFD;
     color: #000;
     padding: 10px;
@@ -261,6 +264,7 @@ p {
 }
 
 .customise-card {
+    background-image: url(gambar-4.webp);
     background-color: #C4DEFD;
     color: #000;
     padding: 10px;
@@ -670,7 +674,6 @@ p {
     display: flex;
     align-items: center;
     color: white;
-    display: flex;
 }
 
 .last-footer-2 ul {
@@ -1438,7 +1441,7 @@ p {
 
     .line-project {
         background-position: left -2px top 90px;
-            background-size: 240px;
+        background-size: 240px;
     }
 
     .line-work-together {
@@ -1631,26 +1634,26 @@ p {
         display: none;
     }
 
-    .bg-your-work{
+    .bg-your-work {
         margin-left: -18px;
     }
 
-    .bg-your-work p{
+    .bg-your-work p {
         padding: 10px 5px;
     }
 
-    .bg-your-work h1{
+    .bg-your-work h1 {
         margin-left: -50px;
         padding: 10px 25px;
     }
 
     .bg-your-work {
-    background-image: none;
-    background-repeat: no-repeat;
-    padding: 100px;
-    z-index: -1;
-    background-position: left;
-}
+        background-image: none;
+        background-repeat: no-repeat;
+        padding: 100px;
+        z-index: -1;
+        background-position: left;
+    }
 
     .bg-your-work .button-try2 {
         margin-left: 5px;
@@ -1713,7 +1716,7 @@ p {
         background-color: #fff;
     }
 
-        .what-our-card-1 p {
+    .what-our-card-1 p {
         color: #000;
     }
 
@@ -1725,16 +1728,16 @@ p {
         font-family: sans-serif;
     }
 
-        .line {
+    .line {
         border-bottom: 1px solid #043873;
         width: 100%;
     }
 
     .profile {
-    grid-template-columns: auto ;
-    padding: 0px;
-    gap: 2px;
-}
+        grid-template-columns: auto;
+        padding: 0px;
+        gap: 2px;
+    }
 
     .what-our-card-2,
     .what-our-card-3 {
@@ -1766,13 +1769,13 @@ p {
     }
 
     .container-contant-sales ul {
-    justify-content: flex-start;
+        justify-content: flex-start;
         gap: 25px;
-}
+    }
 
- .container-contant-sales ul li img {
-    width: 35px;
- }
+    .container-contant-sales ul li img {
+        width: 35px;
+    }
 
     .container-footer {
         gap: 100px;
