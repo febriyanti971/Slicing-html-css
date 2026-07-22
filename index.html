@@ -32,7 +32,7 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero hero-bg">
       <div class="container">
         <div class="hero-text">
           <h1>Get More Done with whitepace</h1>
@@ -49,18 +49,19 @@
 
     <section class="content-putih">
       <div class="project-management">
+        <div class="project-bg">
         <div class="container">
           <div class="project-text">
             <h1>Project Management </h1>
             <p>Images, videos, PDFs and audio files are supported. Create math
               expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
             </p>
-
             <button class="button-try2">Try Whitepace free <i class="fa-solid fa-arrow-right-long"></i></button>
             <!-- <button class="button-get">Get Started <i class="fa-solid fa-arrow-right-long"></i></button> -->
           </div>
           <div class="project-img">
           </div>
+        </div>
         </div>
       </div>
 
@@ -72,7 +73,7 @@
           <div class="work-together-text">
             <h1>Work together </h1>
             <p>With whitepace, share your notes with your colleagues and
-              collaborate on them.<br>
+              collaborate on them.
               You can also publish a note to the internet and share the URL with others.</p>
             <button class="button-try2">Try it now <i class="fa-solid fa-arrow-right-long"></i></button>
           </div>
@@ -94,15 +95,17 @@
       </div>
     </section>
 
-    <section class="customise">
-      <div class="container">
-        <div class="customise-img">
-        </div>
-        <div class="customise-text">
-          <h1>Customise it to your needs</h1>
-          <p>Customise the app with plugins, custom themes and multiple text
-            editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.</p>
-          <button class="button-try2">Let’s Go <i class="fa-solid fa-arrow-right-long"></i></button>
+    <section class="content-putih">
+      <div class="customise">
+        <div class="container">
+          <div class="customise-img">
+          </div>
+          <div class="customise-text">
+            <h1>Customise it to your needs</h1>
+            <p>Customise the app with plugins, custom themes and multiple text
+              editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.</p>
+            <button class="button-try2">Let’s Go <i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
         </div>
       </div>
     </section>
@@ -120,10 +123,10 @@
         </div>
 
         <div class="your-plan-card">
-          <div class="container">
+          <div class="your-plan-card-container">
             <div class="plan-card-1">
               <div class="isi">
-                <h2>Free</h1>
+                <h2>Free</h2>
                   <h1>$0</h1>
                   <h3>Capture ideas and find them quickly</h3>
                   <p style="font-size: 16px;"><i class="fa-regular fa-circle-check"></i> Sync unlimited devices</p>
@@ -136,12 +139,12 @@
                     account</p>
                   <p style="font-size: 16px;"><i class="fa-regular fa-circle-check"></i> Add due dates, reminders, and
                     notifications to your tasks</p>
-                  <button class="button-get2">Get Started</button>
+                  <button class="button-try2">Get Started</button>
               </div>
             </div>
             <div class="plan-card-2">
               <div class="isi2">
-                <h2>Personal</h1>
+                <h2>Personal</h2>
                   <h1 style="color: #FFE492;">$11.99</h1>
                   <h3>Keep home and family on track</h3>
                   <p style="font-size: 16px;"><i class="fa-regular fa-circle-check" style="color:#FFE492"></i> Sync
@@ -162,12 +165,12 @@
                   <p style="font-size: 16px;"><i class="fa-regular fa-circle-check" style="color:#FFE492"></i> Add due
                     dates,
                     reminders, and notifications to your tasks</p>
-                  <button class="button-get" style="margin-top: 80px;">Get Started</button>
+                  <button class="button-try2" style="margin-top: 80px;">Get Started</button>
               </div>
             </div>
             <div class="plan-card-1">
               <div class="isi">
-                <h2>Organization</h1>
+                <h2>Organization</h2>
                   <h1>$49.99</h1>
                   <h3>Capture ideas and find them quickly</h3>
                   <p style="font-size: 16px;"><i class="fa-regular fa-circle-check"></i> Sync unlimited devices</p>
@@ -180,11 +183,19 @@
                     account</p>
                   <p style="font-size: 16px;"><i class="fa-regular fa-circle-check"></i> Add due dates, reminders, and
                     notifications to your tasks</p>
-                  <button class="button-get2">Get Started</button>
+                  <button class="button-try2">Get Started</button>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <br>
+      <div class="your-plan-dot">
+      <div class="what-our-dot">
+        <span class="dot" style="background-color: #4F9CF9;" onclick="currentSlide(1)"></span>
+        <span class="dot" style="background-color: #043873;" onclick="currentSlide(2)"></span>
+        <span class="dot" style="background-color: #4F9CF9;" onclick="currentSlide(3)"></span>
+      </div>
       </div>
     </section>
 
@@ -267,7 +278,7 @@
           </div>
         </div>
         <div class="what-our-card">
-          <div class="container">
+          <div class="what-our-card-container">
             <div class="what-our-card-1">
               <div class="isi-what-our-card">
                 <i class="fa-solid fa-quote-left" style="font-size: 60px; padding: 20px; color: #043873;"></i>
@@ -415,7 +426,7 @@
               <li><img src="icon-Facebook.svg"></li>
               <li class="icon-vector"><img src="icon-Vector.svg"></li>
               <li>
-                <h3 style=" font-family: sans-serif;">in</h3>
+                <h3 style=" font-family: sans-serif; color: #fff;">in</h3>
               </li>
             </ul>
           </div>
