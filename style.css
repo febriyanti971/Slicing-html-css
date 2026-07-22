@@ -123,9 +123,8 @@ p {
 }
 
 .hero-img {
-        position: relative;
     z-index: 10;
-    background-color: #C4DEFD;
+    background-image: url('gambar-1.jpg');
     color: #000;
     text-align: center;
     width: 100%;
@@ -158,14 +157,13 @@ p {
     margin-top: 40px ;
 }
 
-
 .project-text {
     font-family: sans-serif;
     color: #000;
 }
 
 .project-img {
-    background-color: #C4DEFD;
+     background-image: url('gambar-2.png');
     color: #000;
     text-align: center;
     width: 100%;
@@ -215,7 +213,7 @@ p {
 }
 
 .use-as-img {
-    background-color: #C4DEFD;
+ background-image: url('gambar-3.avif');
     width: 100%;
     max-width: 715px;
     height: 500px;
@@ -236,7 +234,7 @@ p {
 }
 
 .customise-img {
-    background-color: #C4DEFD;
+ background-image: url('gambar-4.webp');
     width: 100%;
     max-width: 715px;
     height: 500px;
@@ -292,6 +290,16 @@ p {
     margin-top: 20px;
     color: #fff;
     font-family: sans-serif;
+}
+
+.button-plan {
+    color: #FFE492;
+    background-color: #fff;
+    border: 1px solid #FFE492;
+    margin-left: 2px;
+    padding: 13px 24px;
+    border-radius: 4px;
+    margin-top: 20px;
 }
 
 .your-plan-dot {
@@ -565,7 +573,14 @@ p {
     border-radius: 4px;
 }
 
-.last-footer .container {
+.container-footer {
+    max-width: 1480px;
+    width: auto;
+    margin: 0 auto;
+    padding: 5px 80px;
+}
+
+.last-footer .container-footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
@@ -905,6 +920,18 @@ p {
         text-align: center;
     }
 
+    .your-work-text {
+    text-align: start;
+}
+
+.project-bg {
+    background-image: none;
+}
+
+.your-work-text h1 {
+    font-size: 50px;
+}
+
     .hero-img,
     .project-img,
     .use-as-img,
@@ -1018,12 +1045,19 @@ p {
         padding-right: 300px;
     }
 
+    .container-footer {
+    padding: 5px 20px;
+}
 
-    .last-footer .container {
+    .last-footer .container-footer {
         display: grid;
         grid-template-columns: 1fr;
         border-top: none;
     }
+
+        .last-footer-1 {
+            justify-content: start;
+        }
 
     .last-footer-2 {
         border-top: 1px solid #2E4E73;
@@ -1080,9 +1114,9 @@ p {
         padding: 20px 60px;
     }
 
-    .last-footer .container {
+    .last-footer .container-footer {
         gap: 20px;
-        padding: 55px 20px
+        padding: 5px 20px
     }
 
     .last-footer-1 ul {
@@ -1110,8 +1144,8 @@ p {
         height: 200px;
     }
 
-    .last-footer .container {
+    .last-footer .container-footer{
         gap: 20px;
-        padding: 55px 40px
+        padding: 5px 40px
     }
 }
