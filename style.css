@@ -8,7 +8,7 @@ body {
     background-color: #fff;
     width: auto;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     overflow: hidden;
 }
 
@@ -20,7 +20,7 @@ header {
     max-width: 1480px;
     margin: auto;
     color: white;
-    padding: 15px;
+    padding: 15px 140px;
 }
 
 .logo {
@@ -31,7 +31,8 @@ header {
 }
 
 .logo h1 {
-    font-size: 30px;
+    padding: 0 10px;
+    font-size: 28px;
 }
 
 nav {
@@ -53,6 +54,7 @@ li {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    font-size: 18px;
 }
 
 .button {
@@ -61,18 +63,20 @@ li {
 }
 
 .button-login {
-    padding: 20px 48px;
+    padding: 32px 80px;
     background: #FFE492;
     border: none;
     border-radius: 8px;
+    font-size: 18px;
 }
 
 .button-try {
-    padding: 20px 60px;
+    padding: 32px 48px;
     color: white;
     background-color: #4F9CF9;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    font-size: 18px;
 }
 
 nav .menu-icon {
@@ -88,7 +92,7 @@ nav .menu-icon {
     max-width: 1480px;
     width: auto;
     margin: 0 auto;
-    padding: 80px;
+    padding: 140px;
 }
 
 h1 {
@@ -102,7 +106,7 @@ p {
 .hero-bg {
     width: auto;
     max-width: 1920px;
-    background-image: url('bg-hero.svg');
+    background-image: url('asset/bg-hero.svg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -114,7 +118,7 @@ p {
     align-items: flex-start;
     margin: 0 auto;
     gap: 50px;
-     position: relative;
+    position: relative;
 }
 
 .hero-text {
@@ -124,7 +128,7 @@ p {
 
 .hero-img {
     z-index: 10;
-    background-image: url('gambar-1.jpg');
+    background-image: url('asset/gambar-1.jpg');
     color: #000;
     text-align: center;
     width: 100%;
@@ -151,10 +155,10 @@ p {
 }
 
 .project-bg {
-    background-image: url('bg-2.svg');
+    background-image: url('asset/bg-2.svg');
     background-size: 500px;
     background-repeat: no-repeat;
-    margin-top: 40px ;
+    margin-top: 40px;
 }
 
 .project-text {
@@ -163,7 +167,7 @@ p {
 }
 
 .project-img {
-     background-image: url('gambar-2.png');
+    background-image: url('asset/gambar-2.png');
     color: #000;
     text-align: center;
     width: 100%;
@@ -204,7 +208,6 @@ p {
     margin: 0 auto;
     gap: 50px;
     background-color: #043873;
-    padding-bottom: 40px;
 }
 
 .use-as-text {
@@ -213,7 +216,7 @@ p {
 }
 
 .use-as-img {
- background-image: url('gambar-3.avif');
+    background-image: url('asset/gambar-3.avif');
     width: 100%;
     max-width: 715px;
     height: 500px;
@@ -225,7 +228,6 @@ p {
     align-items: flex-start;
     margin: 0 auto;
     gap: 50px;
-    padding-bottom: 100px;
 }
 
 .customise-text {
@@ -234,7 +236,7 @@ p {
 }
 
 .customise-img {
- background-image: url('gambar-4.webp');
+    background-image: url('asset/gambar-4.webp');
     width: 100%;
     max-width: 715px;
     height: 500px;
@@ -327,13 +329,12 @@ p {
 
 .your-data-img {
     width: 100%;
-    max-width: 715px;
 }
 
 .your-data-img img {
     width: 100%;
     height: auto;
-    display: block;
+    padding-top: 50px;
 }
 
 .sponsors .container {
@@ -348,7 +349,6 @@ p {
 
 .sponsors-img {
     padding-top: 20px;
-        padding-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 200px;
@@ -577,7 +577,7 @@ p {
     max-width: 1480px;
     width: auto;
     margin: 0 auto;
-    padding: 5px 80px;
+    padding: 5px 140px;
 }
 
 .last-footer .container-footer {
@@ -617,17 +617,13 @@ p {
     list-style: none;
 }
 
-@media screen and (max-width: 1480px) {
+@media screen and (max-width: 1440px) {
     header {
-        width: auto;
-        max-width: 1420px;
-        padding: 15px 40px;
+        padding: 32px 48px;
     }
 
     .container {
-        max-width: 1420px;
-        width: auto;
-        padding: 60px 40px;
+        padding: 140px 48px;
     }
 
     h1 {
@@ -637,13 +633,12 @@ p {
     .hero-img,
     .project-img,
     .use-as-img,
-    .customise-img,
-    .your-data-img {
+    .customise-img {
         width: 100%;
         height: 400px;
     }
 
-    .plan-card-1{
+    .plan-card-1 {
         width: 100%;
         max-width: 341px;
         height: 700px;
@@ -652,20 +647,21 @@ p {
     .plan-card-2 {
         width: 100%;
         max-width: 341px;
-            height: 780px;
+        height: 780px;
     }
 
-    .isi, .isi2 {
-    padding: 10px;
-}
+    .isi,
+    .isi2 {
+        padding: 10px;
+    }
 
-.isi h1 {
-    font-size: 40px;
-}
+    .isi h1 {
+        font-size: 40px;
+    }
 
-.isi2 h1 {
-    font-size: 40px;
-}
+    .isi2 h1 {
+        font-size: 40px;
+    }
 
 
     .sponsors-img {
@@ -678,9 +674,9 @@ p {
         width: 100%;
     }
 
-    .last-footer .container {
+    .last-footer .container-footer {
         border-top: 1px solid #2E4E73;
-        padding: 20px 40px;
+        padding: 5px 48px;
     }
 
 }
@@ -698,13 +694,13 @@ p {
     nav .menu-icon {
         display: block;
         padding: 0 5px;
+        font-size: 50px;
     }
 
     .hero-img,
     .project-img,
     .use-as-img,
-    .customise-img,
-    .your-data-img {
+    .customise-img {
         width: 100%;
         height: 350px;
     }
@@ -734,7 +730,7 @@ p {
         gap: 5px;
     }
 
-        .sponsor-logo {
+    .sponsor-logo {
         height: 80%;
         width: 80%;
         padding: 10px 0;
@@ -752,9 +748,9 @@ p {
         margin-top: 5px;
     }
 
-    .last-footer .container {
+    .last-footer .container-footer {
         border-top: 1px solid #2E4E73;
-        padding: 20px 40px;
+        padding: 20px 48px;
     }
 
 }
@@ -866,6 +862,13 @@ p {
 } */
 
 @media screen and (max-width: 768px) {
+    header {
+        padding: 8px 48px;
+    }
+
+    .container {
+        padding: 80px 48px;
+    }
 
     h1 {
         font-size: 56px;
@@ -894,7 +897,6 @@ p {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
-        gap: 50px;
     }
 
 
@@ -921,16 +923,16 @@ p {
     }
 
     .your-work-text {
-    text-align: start;
-}
+        text-align: start;
+    }
 
-.project-bg {
-    background-image: none;
-}
+    .project-bg {
+        background-image: none;
+    }
 
-.your-work-text h1 {
-    font-size: 50px;
-}
+    .your-work-text h1 {
+        font-size: 50px;
+    }
 
     .hero-img,
     .project-img,
@@ -948,13 +950,11 @@ p {
         height: auto;
     }
 
-    .work-together-text,
-    .your-data-text {
+    .work-together-text {
         order: 1;
     }
 
-    .work-together-img,
-    .your-data-img {
+    .work-together-img {
         order: 2;
     }
 
@@ -964,9 +964,9 @@ p {
 
     .your-data-img {
         order: 1;
-        width: 100%;
+        /* width: 100%;
         max-width: 551px;
-        height: auto;
+        height: auto; */
     }
 
     .your-plan-card-container {
@@ -1021,7 +1021,7 @@ p {
     }
 
     .try-whitepace-today .container {
-        padding: 10px;
+        padding: 10px 48px;
     }
 
     .try-whitepace-today-text {
@@ -1038,16 +1038,17 @@ p {
         grid-template-columns: 1fr;
         gap: 60px;
         margin: 0 auto;
-        padding: 10px;
+        padding: 10px 48px;
     }
 
-    .footer-card, .footer-card-3 {
+    .footer-card,
+    .footer-card-3 {
         padding-right: 300px;
     }
 
     .container-footer {
-    padding: 5px 20px;
-}
+        padding: 5px 48px;
+    }
 
     .last-footer .container-footer {
         display: grid;
@@ -1055,9 +1056,9 @@ p {
         border-top: none;
     }
 
-        .last-footer-1 {
-            justify-content: start;
-        }
+    .last-footer-1 {
+        justify-content: start;
+    }
 
     .last-footer-2 {
         border-top: 1px solid #2E4E73;
@@ -1068,15 +1069,14 @@ p {
 }
 
 @media screen and (max-width: 640px) {
-        h1 {
+    h1 {
         font-size: 36px;
     }
 
-        .hero-img,
+    .hero-img,
     .project-img,
     .use-as-img,
-    .customise-img,
-    .your-data-img {
+    .customise-img {
         width: 100%;
         height: 300px;
     }
@@ -1092,7 +1092,7 @@ p {
 
     .footer-card {
         text-align: center;
-        padding: 20px 60px;
+        padding: 20px 10px;
     }
 
     .footer-card,
@@ -1111,13 +1111,14 @@ p {
     .footer-card-3 {
         display: block;
         text-align: center;
-        padding: 20px 60px;
+        padding: 20px 10px;
     }
 
+    /* 
     .last-footer .container-footer {
         gap: 20px;
-        padding: 5px 20px
-    }
+        padding: 5px 48px
+    } */
 
     .last-footer-1 ul {
         display: block;
@@ -1133,19 +1134,22 @@ p {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
 
-            .hero-img,
+    .container {
+        padding: 80px 40px;
+    }
+
+    .hero-img,
     .project-img,
     .use-as-img,
-    .customise-img,
-    .your-data-img {
+    .customise-img {
         width: 100%;
         height: 200px;
     }
 
-    .last-footer .container-footer{
+    .last-footer .container-footer {
         gap: 20px;
-        padding: 5px 40px
+        padding: 5px 10x
     }
 }
