@@ -20,7 +20,7 @@ header {
     max-width: 1480px;
     margin: auto;
     color: white;
-    padding: 15px 140px;
+    padding: 29px 32px;
 }
 
 .logo {
@@ -38,7 +38,7 @@ header {
 nav {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 75px;
 }
 
 ul {
@@ -63,7 +63,7 @@ li {
 }
 
 .button-login {
-    padding: 32px 80px;
+    padding: 18.5px 40px;
     background: #FFE492;
     border: none;
     border-radius: 8px;
@@ -71,7 +71,7 @@ li {
 }
 
 .button-try {
-    padding: 32px 48px;
+    padding: 18.5px 24px;
     color: white;
     background-color: #4F9CF9;
     border: none;
@@ -92,7 +92,7 @@ nav .menu-icon {
     max-width: 1480px;
     width: auto;
     margin: 0 auto;
-    padding: 140px;
+    align-items: center;
 }
 
 h1 {
@@ -101,6 +101,8 @@ h1 {
 
 p {
     font-size: 18px;
+    line-height: 30px;
+    word-spacing: 0.4px;
 }
 
 .hero-bg {
@@ -115,10 +117,8 @@ p {
 .hero .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: flex-start;
-    margin: 0 auto;
-    gap: 50px;
-    position: relative;
+    align-items: center;
+    padding: 100px 32px;
 }
 
 .hero-text {
@@ -126,25 +126,29 @@ p {
     color: #fff;
 }
 
+.hero-text p {
+    padding-bottom: 60px;
+}
+
 .hero-img {
-    z-index: 10;
-    background-image: url('asset/gambar-1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
-    max-width: 715px;
-    height: 500px;
+    max-width: 824px;
+}
+
+.hero-img img {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
 }
 
 .button-try2 {
-    margin-left: 2px;
-    padding: 13px 24px;
+    padding: 20px 20px;
     color: white;
     background-color: #4F9CF9;
     border: none;
-    border-radius: 4px;
-    margin-top: 20px;
+    border-radius: 8px;
 }
 
 .project-management .container {
@@ -153,13 +157,16 @@ p {
     align-items: flex-start;
     margin: 0 auto;
     gap: 50px;
+    padding-top: 140px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .project-bg {
     background-image: url('asset/bg-2.svg');
     background-size: 500px;
     background-repeat: no-repeat;
-    margin-top: 40px;
 }
 
 .project-text {
@@ -167,14 +174,25 @@ p {
     color: #000;
 }
 
+.project-text p {
+    padding-bottom: 60px;
+}
+
+.project-text .button-try2 {
+    padding: 20px 40px;
+}
+
 .project-img {
-    background-image: url('asset/gambar-2.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
-    max-width: 715px;
-    height: 500px;
+    max-width: 719px;
+}
+
+.project-img img {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
 }
 
 .work-together .container {
@@ -182,14 +200,26 @@ p {
     grid-template-columns: 1fr 1fr;
     align-items: flex-start;
     margin: 0 auto;
-    gap: 50px;
+    gap: 150px;
     background-color: #fff;
-    padding: 100px auto;
+    padding-top: 68px;
+    padding-bottom: 140px;
+    padding-right: 32px;
+    padding-left: 32px;
 }
 
 .work-together-text {
+    padding-top: 51px;
     font-family: sans-serif;
     color: #000;
+}
+
+.work-together-text .button-try2 {
+    padding: 20px 40px;
+}
+
+.work-together-text p {
+    padding-bottom: 60px;
 }
 
 .work-together-img {
@@ -198,6 +228,7 @@ p {
 }
 
 .work-together-img img {
+    align-items: center;
     width: 100%;
     height: auto;
     display: block;
@@ -210,6 +241,7 @@ p {
     margin: 0 auto;
     gap: 50px;
     background-color: #043873;
+    padding: 140px 32px;
 }
 
 .use-as-text {
@@ -217,14 +249,25 @@ p {
     color: #fff;
 }
 
+.use-as-text .button-try2 {
+    padding: 20px 40px;
+}
+
+.use-as-text p {
+    padding-bottom: 60px;
+}
+
 .use-as-img {
-    background-image: url('asset/gambar-3.avif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
-    max-width: 715px;
-    height: 500px;
+    max-width: 824px;
+}
+
+.use-as-img img {
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
 }
 
 .customise .container {
@@ -233,6 +276,7 @@ p {
     align-items: flex-start;
     margin: 0 auto;
     gap: 50px;
+    padding: 140px 32px;
 }
 
 .customise-text {
@@ -240,38 +284,64 @@ p {
     color: #000;
 }
 
+.customise-text .button-try2 {
+    padding: 20px 40px;
+}
+
+.customise-text p {
+    padding-bottom: 60px;
+}
+
 .customise-img {
-    background-image: url('asset/gambar-4.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 100%;
-    max-width: 715px;
-    height: 500px;
+    max-width: 824px;
+}
+
+.customise-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0;
 }
 
 .your-plan-text {
     text-align: center;
     font-family: sans-serif;
-    padding: 0;
+    padding-top: 140px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
+
+.your-plan-text p {
+    padding-left: 198px;
+    padding-right: 198px;
+}
+
+/* .your-plan-card .your-plan-card-container {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    padding-left: 35px;
+    padding-right: 39px;
+} */
 
 .your-plan-card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    gap: 32px;
+    align-items: center;
     width: auto;
     max-width: 1480px;
-    width: auto;
     margin: 0 auto;
-    padding-bottom: 100px;
-    padding: 55px 40px;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .plan-card-1 {
     width: 100%;
     max-width: 472px;
-    height: 650px;
+    height: 690px;
     border: 1px solid #FFE492;
     border-radius: 10px;
 }
@@ -279,7 +349,7 @@ p {
 .plan-card-2 {
     width: 100%;
     max-width: 472px;
-    height: 761px;
+    height: 840px;
     border: 1px solid #043873;
     background-color: #043873;
     color: #fff;
@@ -287,17 +357,23 @@ p {
 }
 
 .isi {
-    padding: 40px;
-    font-size: 18px;
-    margin-top: 10px;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 40px;
+    font-size: 16px;
     color: #000;
     font-family: sans-serif;
 }
 
+.isi h1 {
+    font-size: 36px;
+}
+
 .isi2 {
-    padding: 40px;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 80px;
     font-size: 18px;
-    margin-top: 20px;
     color: #fff;
     font-family: sans-serif;
 }
@@ -306,14 +382,23 @@ p {
     color: #FFE492;
     background-color: #fff;
     border: 1px solid #FFE492;
-    margin-left: 2px;
-    padding: 13px 24px;
-    border-radius: 4px;
-    margin-top: 20px;
+    padding: 16px 40px;
+    border-radius: 8px;
+    margin-top: 25px;
 }
+
+.plan-card-2 .button-try2 {
+    padding: 16px 40px;
+    margin-top: 25px;
+}
+
 
 .your-plan-dot {
     display: none;
+}
+
+.your-work .container {
+    padding: 140px 32px;
 }
 
 .your-work-text {
@@ -322,17 +407,40 @@ p {
     text-align: center;
 }
 
+.your-work-text .button-try2 {
+    padding: 20px 40px;
+}
+
+.your-work-text p {
+    padding-left: 188px;
+    padding-right: 188px;
+    padding-bottom: 60px;
+}
+
 .your-data .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: flex-start;
     margin: 0 auto;
     gap: 30px;
+    padding-top: 153px;
+    padding-bottom: 140px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .your-data-text {
+    padding-top: 15px;
     font-family: sans-serif;
     color: #000;
+}
+
+.your-data-text .button-try2 {
+    padding: 20px 40px;
+}
+
+.your-data-text p {
+    padding-bottom: 60px;
 }
 
 .your-data-img {
@@ -345,23 +453,27 @@ p {
     padding-top: 50px;
 }
 
-.sponsors .container {
-    padding: 50px 10px;
-}
-
 .sponsors-text {
     color: #000;
     font-family: sans-serif;
     text-align: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .sponsors-img {
-    padding-top: 20px;
+    width: auto;
+    max-width: 1480px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 200px;
+    gap: 100px;
     justify-items: center;
     align-items: center;
+    padding-bottom: 140px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .sponsor-logo {
@@ -380,12 +492,24 @@ p {
     grid-template-columns: 1fr 1fr;
     align-items: flex-start;
     margin: 0 auto;
-    gap: 40px;
+    gap: 50px;
+    padding-top: 140px;
+    padding-bottom: 142px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .work-with-text {
     font-family: sans-serif;
     color: #fff;
+}
+
+.work-with-text .button-try2 {
+    padding: 20px 40px;
+}
+
+.work-with-text p {
+    padding-bottom: 60px;
 }
 
 .work-with-img {
@@ -397,11 +521,13 @@ p {
     width: 100%;
     height: auto;
     display: block;
-    padding: 100px 0;
 }
 
 .what-our .container {
-    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .what-our-text {
@@ -414,11 +540,11 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    width: auto;
     max-width: 1480px;
     width: auto;
     margin: 0 auto;
-    padding: 0 40px;
+    padding-left: 36px;
+    padding-right: 36px;
 }
 
 .what-our-card-1 {
@@ -441,8 +567,8 @@ p {
 
 .what-our-dot {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 60px;
+    padding-bottom: 140px;
 }
 
 .dot {
@@ -501,7 +627,10 @@ p {
 }
 
 .try-whitepace-today .container {
-    margin: 0 auto;
+    padding-top: 140px;
+    padding-bottom: 32px;
+    padding-left: 416px;
+    padding-right: 416px;
 }
 
 .try-whitepace-today-text {
@@ -510,42 +639,54 @@ p {
     text-align: center;
 }
 
+.p-try-1 {
+    padding-bottom: 40px;
+}
+
+.p-try-2 {
+    padding-top: 40px;
+}
+
+.try-whitepace-today-text .button-try2 {
+    padding: 20px 40px;
+}
+
 .contant-sales ul {
-    padding-top: 50px;
+    padding-top: 40px;
     justify-content: center;
-    padding-bottom: 80px;
 }
 
 .footer-1 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 32px;
     align-items: flex-start;
-    margin: 0 auto;
+    padding: 140px 32px 32px;
 }
 
-.footer-card {
-    text-align: left;
+.footer-card,
+.footer-card-3 {
     color: #fff;
     font-family: sans-serif;
-    padding: 10px;
+    padding-right: 0;
+    min-width: 0;
 }
 
 .logo2 {
     display: flex;
     align-items: center;
-    padding: 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.logo2 img {
+    width: 100%;
+    max-width: 50px;
 }
 
 .logo2 h2 {
-    display: flex;
-    font-size: 20px;
     padding: 0 10px;
-}
-
-.footer-card-2 {
-    text-align: left;
-    padding: 10px;
+    font-size: 28px;
 }
 
 .footer-card-2 ul {
@@ -556,6 +697,7 @@ p {
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
+    padding-top: 20px;
 }
 
 .footer-card-2 li {
@@ -566,32 +708,26 @@ p {
     color: #fff;
 }
 
-.footer-card-3 {
-    text-align: left;
-    color: #fff;
-    font-family: sans-serif;
-    padding: 10px;
-}
-
 .button-start-today {
-    padding: 15px 50px;
+    padding: 20px 40px;
     color: white;
     background-color: #4F9CF9;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .container-footer {
     max-width: 1480px;
     width: auto;
     margin: 0 auto;
-    padding: 5px 140px;
 }
 
 .last-footer .container-footer {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 32px;
     border-top: 1px solid #2E4E73;
 }
 
@@ -599,12 +735,12 @@ p {
     justify-content: start;
 }
 
-.last-footer-1 ul {
+.last-footer-1 ul,
+.last-footer-2 ul {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     align-items: center;
-    gap: 24px;
-    list-style: none;
-    padding: 30px 0;
 }
 
 .last-footer-1 li {
@@ -618,81 +754,44 @@ p {
     justify-content: flex-end;
 }
 
-.last-footer-2 ul {
-    font-size: 16px;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-}
-
 @media screen and (max-width: 1440px) {
+
     header {
-        padding: 32px 48px;
+        width: auto;
+        max-width: 1367px;
     }
 
     .container {
-        padding: 140px 48px;
+        width: auto;
+        max-width: 1367px;
     }
 
-    h1 {
-        font-size: 64px;
-    }
-
-    .hero-img,
-    .project-img,
-    .use-as-img,
-    .customise-img {
-        width: 100%;
-        height: 400px;
-    }
-
-    .plan-card-1 {
-        width: 100%;
-        max-width: 341px;
-        height: 700px;
-    }
-
+    .plan-card-1,
     .plan-card-2 {
         width: 100%;
-        max-width: 341px;
-        height: 780px;
-    }
-
-    .isi,
-    .isi2 {
-        padding: 10px;
-    }
-
-    .isi h1 {
-        font-size: 40px;
-    }
-
-    .isi2 h1 {
-        font-size: 40px;
-    }
-
-
-    .sponsors-img {
-        gap: 50px;
+        max-width: 437px;
     }
 
     .what-our-card-1,
     .what-our-card-2,
     .what-our-card-3 {
         width: 100%;
+        max-width: 437px;
     }
-
-    .last-footer .container-footer {
-        border-top: 1px solid #2E4E73;
-        padding: 5px 48px;
-    }
-
 }
+
 
 @media screen and (max-width: 1152px) {
 
-    h1 {
-        font-size: 60px;
+    header {
+        width: auto;
+        max-width: 1088px;
+        padding: 16px 32px;
+    }
+
+    .container {
+        width: auto;
+        max-width: 1088px;
     }
 
     nav ul {
@@ -705,62 +804,88 @@ p {
         font-size: 50px;
     }
 
-    .hero-img,
-    .project-img,
-    .use-as-img,
-    .customise-img {
-        width: 100%;
-        height: 350px;
+    nav {
+        gap: 20px;
     }
 
-    /* .plan-card-1{
-        width: 100%;
-        max-width: 341px;
-        height: 700px;
+    h1 {
+        font-size: 58px;
+    }
+
+    .hero .container {
+        padding: 140px 32px;
+    }
+
+    .hero-img img {
+        padding-top: 7.5px;
+    }
+
+    .project-img img {
+        padding-top: 76px;
+    }
+
+    .customise-img img {
+        padding-top: 50px;
+    }
+
+    .plan-card-1 {
+        height: auto;
+        min-height: 690px;
+        padding-bottom: 40px;
     }
 
     .plan-card-2 {
-        width: 100%;
-        max-width: 341px;
-            height: 780px;
+        height: auto;
+        min-height: 850px;
+        padding-bottom: 40px;
     }
 
-    .isi, .isi2 {
-    padding: 10px;
-}
+    .your-work .container {
+        padding-right: 470px;
+    }
 
-.isi h1 {
-    font-size: 40px;
-} */
+    .your-work-text h1 {
+        padding-right: 30px;
+    }
 
+    .your-work-text {
+        text-align: start;
+    }
+
+    .your-work-text p {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .project-bg {
+        background-image: none;
+    }
 
     .sponsors-img {
-        gap: 5px;
+        padding-left: 0;
     }
 
     .sponsor-logo {
-        height: 80%;
-        width: 80%;
-        padding: 10px 0;
-    }
-
-    .what-our-card-1,
-    .what-our-card-2,
-    .what-our-card-3 {
         width: 100%;
-        max-width: 331px;
     }
 
-    .isi-what-our-card {
-        padding: 20px;
-        margin-top: 5px;
+    .your-data .container {
+        padding: 140px 32px;
     }
 
-    .last-footer .container-footer {
-        border-top: 1px solid #2E4E73;
-        padding: 20px 48px;
+    .your-data-img img {
+        padding-top: 70px;
     }
 
+    .try-whitepace-today .container {
+        padding-left: 302px;
+        padding-right: 302px;
+    }
+
+    .footer-card {
+        padding: 0;
+    }
 }
 
 /* @media screen and (max-width: 1020px) {
@@ -870,29 +995,18 @@ p {
 } */
 
 @media screen and (max-width: 768px) {
-    header {
-        padding: 8px 48px;
-    }
-
-    .container {
-        padding: 80px 48px;
-    }
 
     h1 {
-        font-size: 56px;
+        font-size: 54px;
     }
 
     nav .button {
         display: none;
     }
 
-    nav ul {
-        display: none;
-    }
-
-    nav .menu-icon {
-        display: block;
-        padding: 0 5px;
+    .container {
+        width: auto;
+        max-width: 728px;
     }
 
     .hero .container,
@@ -904,132 +1018,190 @@ p {
     .work-with .container {
         display: grid;
         grid-template-columns: 1fr;
-        justify-items: center;
-    }
-
-
-    .sponsors-img {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-
-    /* .sponsor-logo {
-        height: 80%;
-        width: 80%;
-        padding: 10px 0;
-    } */
-
-    .hero-text,
-    .project-text,
-    .work-together-text,
-    .use-as-text,
-    .customise-text,
-    .your-data-text,
-    .work-with-text {
         text-align: center;
     }
 
-    .your-work-text {
-        text-align: start;
-    }
-
-    .project-bg {
-        background-image: none;
-    }
-
-    .your-work-text h1 {
-        font-size: 50px;
-    }
-
-    .hero-img,
-    .project-img,
-    .use-as-img,
-    .customise-img {
+    img {
         width: 100%;
-        max-width: 551px;
-        height: 367px;
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
     }
 
-    .work-together-img,
-    .work-with-img {
-        width: 100%;
-        max-width: 551px;
-        height: auto;
+    .hero .container {
+        padding-top: 140px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero-img img,
+    .project-img img,
+    .work-together-img img {
+        padding-top: 100px;
+        align-items: center;
+
+    }
+
+    .project-management .container {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-img img {
+        padding-top: 10px;
+    }
+
+    .work-together .container {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 0;
     }
 
     .work-together-text {
+        padding-top: 0;
         order: 1;
     }
 
     .work-together-img {
+        align-items: center;
         order: 2;
     }
 
-    .your-data-text {
-        order: 2;
+    .use-as .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 0;
     }
 
-    .your-data-img {
-        order: 1;
-        /* width: 100%;
-        max-width: 551px;
-        height: auto; */
+    .use-as-text {
+        padding-bottom: 60px;
+    }
+
+    .use-as-img img {
+        padding-top: 0;
+    }
+
+    .customise-img img {
+        padding-top: 0;
+    }
+
+    .your-plan-text {
+        padding-top: 140px;
+    }
+
+    .your-plan-text p {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .your-plan-card-container {
         overflow-x: auto;
+        display: flex;
+        gap: 32px;
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
+    /* .your-plan-card .your-plan-card-container {
+        display: flex;
+        gap: 32px;
+        justify-content: flex-start;
+    } */
 
     .plan-card-1,
     .plan-card-2 {
-        display: grid;
-        width: 472px;
-    }
-
-    .isi {
-        padding: 20px;
-        font-size: 16px;
-        margin-top: 5px;
-        color: #000;
-        font-family: sans-serif;
-    }
-
-    .isi2 {
-        padding: 20px;
-        font-size: 16px;
-        margin-top: 10px;
-        color: #fff;
-        font-family: sans-serif;
+        flex: 0 0 472px;
+        max-width: 472px;
     }
 
     .your-plan-dot {
         display: block;
     }
 
+    .your-work .container {
+        padding: 140px 0px;
+    }
+
+    .your-work-text h1 {
+        padding-right: 144px;
+        padding-left: 20px;
+    }
+
+    .your-work-text .button-try2 {
+        padding: 20px 40px;
+    }
+
+    .your-work-text p {
+        text-align: start;
+        padding-left: 20px;
+        padding-right: 144px;
+        padding-bottom: 60px;
+    }
+
+    .your-data .container {
+        padding: 140px 20px;
+        gap: 50px;
+    }
+
+    .your-data-text {
+        order: 2;
+        padding-top: 0;
+    }
+
+    .your-data-img img {
+        order: 1;
+        padding-top: 0;
+    }
+
     .sponsors-img {
-        gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 10px;
     }
 
-    .work-with-img img {
-        padding: 5px 0;
+    .work-with .container {
+        padding-bottom: 140px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
+    .what-our .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .what-our-card-container {
         overflow-x: auto;
+        display: flex;
+        gap: 32px;
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .what-our-card-1,
     .what-our-card-2,
     .what-our-card-3 {
-        display: grid;
-        grid-auto-flow: column;
-        width: 472px;
+        flex: 0 0 472px;
+    }
+
+    .what-our-dot {
+        padding-bottom: 100px;
     }
 
     .try-whitepace-today .container {
-        padding: 10px 48px;
+        padding-top: 140px;
+        padding-bottom: 0;
+        padding-left: 20px;
+        padding-right: 140px;
     }
 
     .try-whitepace-today-text {
@@ -1037,46 +1209,301 @@ p {
     }
 
     .contant-sales ul {
+        justify-content: start;
+    }
+
+    .logo2 img {
+        width: 100%;
+        max-width: 50px;
+        min-width: 50px;
+    }
+
+    .footer-1 .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    .footer-card {
+        padding-right: 250px;
+    }
+
+    .container-footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .last-footer .container-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        border-top: none;
+    }
+
+    .last-footer-1 {
+        border-bottom: 1px solid #2E4E73;
+    }
+
+    .last-footer-2 {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    header {
+        padding: 16px 16px;
+    }
+
+    .logo h1 {
+        font-size: 19px;
+    }
+
+    nav .menu-icon {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .container {
+        width: auto;
+        max-width: 288px;
+    }
+
+    .hero .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .hero-img img,
+    .project-img img,
+    .work-together-img img {
+        padding-top: 100px;
+        align-items: center;
+
+    }
+
+    .project-management .container {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .project-img img {
+        padding-top: 10px;
+    }
+
+    .work-together .container {
         padding-top: 50px;
+        padding-bottom: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 0;
+    }
+
+    .work-together-text {
+        order: 1;
+    }
+
+    .work-together-img {
+        align-items: center;
+        order: 2;
+    }
+
+    .use-as .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 0;
+    }
+
+    .customise .container {
+        padding: 100px 16px;
+    }
+
+    .customise-img img {
+        padding-top: 0;
+    }
+
+    .your-plan-text {
+        padding-top: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .your-plan-text p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .your-plan-card-container {
+        overflow-x: auto;
+        padding: 85px 16px;
+    }
+
+    /* .your-plan-card .your-plan-card-container {
+        display: flex;
+        gap: 32px;
+        justify-content: flex-start;
+    } */
+
+    .plan-card-1,
+    .plan-card-2 {
+        flex: 0 0 289px;
+        max-width: 289px;
+    }
+
+    .your-plan-dot .what-our-dot {
+        margin: 0;
+        padding-bottom: 85px;
+    }
+
+    .your-work .container {
+        padding-top: 100px;
+        padding-bottom: 140px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .your-work-text h1 {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .your-work-text p {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 60px;
+    }
+
+    .your-data .container {
+        padding: 80px 16px;
+        gap: 100px;
+    }
+
+    .your-data-text {
+        padding-top: 0;
+    }
+
+    .sponsors-text {
+        padding-top: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .sponsors-img {
+        padding-bottom: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .sponsor-logo {
+        height: 90%;
+        width: 90%;
+    }
+
+    .work-with .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+
+    .what-our .container {
+        padding-top: 100px;
+        padding-bottom: 15px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .what-our-card-container {
+        overflow-x: auto;
+        display: flex;
+        gap: 32px;
+        justify-content: flex-start;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .what-our-card-1,
+    .what-our-card-2,
+    .what-our-card-3 {
+        flex: 0 0 472px;
+    }
+
+    .what-our-dot {
+        padding-bottom: 100px;
+    }
+
+    .try-whitepace-today .container {
+        padding-top: 100px;
+        padding-bottom: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .try-whitepace-today-text {
+        text-align: start;
+    }
+
+    .contant-sales ul {
         justify-content: start;
     }
 
     .footer-1 .container {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 60px;
-        margin: 0 auto;
-        padding: 10px 48px;
+        gap: 100px;
+        padding-top: 140px;
+        padding-bottom: 100px;
     }
 
     .footer-card,
     .footer-card-3 {
-        padding-right: 300px;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .logo2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-card-2 li {
+        text-align: center;
     }
 
     .container-footer {
-        padding: 5px 48px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
-    .last-footer .container-footer {
-        display: grid;
-        grid-template-columns: 1fr;
-        border-top: none;
-    }
-
-    .last-footer-1 {
-        justify-content: start;
+    .last-footer-1 ul {
+        display: flex;
+        flex-direction: column;
     }
 
     .last-footer-2 {
-        border-top: 1px solid #2E4E73;
-        justify-content: start;
+        display: flex;
+        justify-content: center;
     }
-
-
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
     h1 {
         font-size: 36px;
     }
@@ -1128,7 +1555,7 @@ p {
         padding: 5px 48px
     } */
 
-    .last-footer-1 ul {
+/* .last-footer-1 ul {
         display: block;
     }
 
@@ -1142,15 +1569,15 @@ p {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) { */
 
-    header {
+/* header {
         padding: 8px 30px;
     }
 
     .container {
         padding: 80px 30px;
-    }
+    } 
 
     .hero-img,
     .project-img,
@@ -1160,8 +1587,8 @@ p {
         height: 200px;
     }
 
-    .last-footer .container-footer {
+     .last-footer .container-footer {
         gap: 20px;
         padding: 5px 10x
-    }
-}
+    } 
+} */
